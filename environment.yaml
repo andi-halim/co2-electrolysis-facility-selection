@@ -10,6 +10,7 @@ dependencies:
   - tqdm
   - numpy
   - xlrd
+  - openpyxl
   - pandas
   - scipy
   - scikit-learn
