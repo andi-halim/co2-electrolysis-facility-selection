@@ -1,0 +1,30 @@
+name: geods-base
+channels:
+  - conda-forge
+  - pip
+dependencies:
+  - python=3.13
+  - python-dotenv
+  - ipykernel
+  - jupyterlab
+  - tqdm
+  - numpy
+  - xlrd
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - geopandas
+  - shapely
+  - folium
+  - fiona
+  - geodatasets
+  - black
+  - flake8
+  - pip
+  - pip:
+      - pygris
+      - watttime
+
